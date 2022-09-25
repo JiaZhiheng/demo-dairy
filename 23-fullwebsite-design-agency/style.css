@@ -3,16 +3,16 @@ html.sr .load-hidden {
   visibility: hidden;
 } */
 
+:root {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
 
 /* 
 html {
   scroll-behavior: smooth;
 } */
-
-:root {
-  overflow-y: auto;
-  overflow-x: hidden;
-}
 
 * {
   margin: 0;
@@ -33,7 +33,7 @@ img {
 /* 定义变量 */
 
 :root {
-  --primary-color: #ff434f;
+  --primary-color: #409EFF;
   --secondary-color: #e3e3e3;
   --text-color-lightest: #e7e9ec;
   --text-color-darker: #2e2e2e;
